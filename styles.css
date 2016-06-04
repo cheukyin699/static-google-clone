@@ -1,0 +1,74 @@
+#searching-middle {
+    padding-top: 109px;
+}
+
+#google-logo {
+    background: url(https://www.google.ca/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png) no-repeat;
+    background-size: 272px 92px;
+    height: 92px; width: 272px;
+}
+
+#query-box {
+    border: 1px solid #d9d9d9;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+#query {
+    width: 99%;
+    border: medium none;
+    outline: medium none;
+    padding: 10px 0;
+}
+
+.button {
+    color: #757575;
+    background: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    font-size: 13px;
+    font-weight: bold;
+    height: 36px;
+}
+
+header ul li {
+    list-style: none;
+    margin: 0 15px;
+    float: right;
+    font-family: arial;
+    font-size: 13px;
+}
+
+footer {
+    bottom: 0;
+    position: absolute;
+    line-height: 40px;
+    border-top: 1px solid #e2e2e2;
+    width: 100%;
+    background: #f2f2f2;
+}
+
+.left a {
+    margin-left: 15px;
+    font-family: arial;
+    font-size: 13px;
+    color: #666;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.right a {
+    margin-right: 15px;
+    font-family: arial;
+    font-size: 13px;
+    color: #666;
+}
+

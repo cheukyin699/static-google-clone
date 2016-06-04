@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Google</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <ul>
+            <li>Images</li>
+            <li>Gmail</li>
+        </ul>
+    </header>
+
+
+    <center id="searching-middle">
+        <div id='google-logo'>
+        </div>
+
+        <form>
+            <div id="query-box">
+                <input type="text" onfocus="of(true)" onblur="of(false)" id="query">
+            </div>
+
+            <br>
+
+            <input type="submit" class="button" value="Google Search">
+            <input type="button" class="button" value="I'm Feeling Lucky">
+        </form>
+    </center>
+
+    <footer>
+        <span class='right'>
+            <a>Settings</a>
+            <a>Terms</a>
+            <a>Privacy</a>
+        </span>
+
+        <span class='left'>
+            <a>Advertising</a>
+            <a>Business</a>
+            <a>About</a>
+        </span>
+    </footer>
+
+    <script>
+        function of(b) {
+            if (b) {
+                document.getElementById("query-box").style.borderColor = "#4d90fe";
+            } else {
+                document.getElementById("query-box").style.borderColor =   "d9d9d9";
+            }
+        }
+    </script>
+</body>
+</html>
